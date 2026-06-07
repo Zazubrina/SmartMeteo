@@ -1,0 +1,674 @@
+2026-06-07 20:08:53.998 +03:00 [DBG] Hosting starting
+2026-06-07 20:08:54.039 +03:00 [DBG] Middleware loaded
+2026-06-07 20:08:54.042 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14901 B).
+2026-06-07 20:08:54.046 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-06-07 20:08:54.093 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-07 20:08:54.096 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-07 20:08:54.096 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-06-07 20:08:54.114 +03:00 [INF] Now listening on: http://localhost:5136
+2026-06-07 20:08:54.114 +03:00 [DBG] Loaded hosting startup assembly Meteo.Api
+2026-06-07 20:08:54.115 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-06-07 20:08:54.115 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 20:08:54.115 +03:00 [INF] Hosting environment: Development
+2026-06-07 20:08:54.115 +03:00 [INF] Content root path: C:\Users\DevEnv\Downloads\SmartMeteo\Meteo.Api
+2026-06-07 20:08:54.115 +03:00 [DBG] Hosting started
+2026-06-07 20:08:59.109 +03:00 [DBG] Connection id "0HNM4MTRJ65AR" accepted.
+2026-06-07 20:08:59.110 +03:00 [DBG] Connection id "0HNM4MTRJ65AR" started.
+2026-06-07 20:08:59.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/weatherforecast/ - null null
+2026-06-07 20:08:59.194 +03:00 [DBG] No candidates found for the request path '/weatherforecast/'
+2026-06-07 20:08:59.194 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:08:59.196 +03:00 [INF] Request GET /weatherforecast/
+2026-06-07 20:08:59.240 +03:00 [INF] Response 404 for GET /weatherforecast/ in 43ms
+2026-06-07 20:08:59.248 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/weatherforecast/ - 404 0 null 104.2133ms
+2026-06-07 20:08:59.249 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/weatherforecast/, Response status code: 404
+2026-06-07 20:08:59.249 +03:00 [DBG] Connection id "0HNM4MTRJ65AR" disconnecting.
+2026-06-07 20:08:59.250 +03:00 [DBG] Connection id "0HNM4MTRJ65AR" stopped.
+2026-06-07 20:08:59.252 +03:00 [DBG] Connection id "0HNM4MTRJ65AR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:10:39.498 +03:00 [DBG] Connection id "0HNM4MTRJ65AS" accepted.
+2026-06-07 20:10:39.499 +03:00 [DBG] Connection id "0HNM4MTRJ65AS" started.
+2026-06-07 20:10:39.504 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2026-06-07 20:10:39.507 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2026-06-07 20:10:39.508 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:39.508 +03:00 [INF] Request GET /swagger/v1/swagger.json
+2026-06-07 20:10:39.521 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-06-07 20:10:39.524 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-06-07 20:10:39.596 +03:00 [DBG] Browser refresh script injection skipped. Status code: 200, Content type: application/json;charset=utf-8
+2026-06-07 20:10:39.600 +03:00 [INF] Response 200 for GET /swagger/v1/swagger.json in 92ms
+2026-06-07 20:10:39.602 +03:00 [DBG] Connection id "0HNM4MTRJ65AS" completed keep alive response.
+2026-06-07 20:10:39.602 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 98.7873ms
+2026-06-07 20:10:39.646 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/favicon.ico - null null
+2026-06-07 20:10:39.646 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2026-06-07 20:10:39.647 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:39.647 +03:00 [INF] Request GET /favicon.ico
+2026-06-07 20:10:39.648 +03:00 [INF] Response 404 for GET /favicon.ico in 0ms
+2026-06-07 20:10:39.648 +03:00 [DBG] Connection id "0HNM4MTRJ65AS" completed keep alive response.
+2026-06-07 20:10:39.648 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/favicon.ico - 404 0 null 2.6777ms
+2026-06-07 20:10:39.648 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/favicon.ico, Response status code: 404
+2026-06-07 20:10:49.535 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/ - null null
+2026-06-07 20:10:49.535 +03:00 [DBG] No candidates found for the request path '/swagger/'
+2026-06-07 20:10:49.535 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:49.535 +03:00 [INF] Request GET /swagger/
+2026-06-07 20:10:49.536 +03:00 [INF] Response 301 for GET /swagger/ in 0ms
+2026-06-07 20:10:49.536 +03:00 [DBG] Connection id "0HNM4MTRJ65AS" completed keep alive response.
+2026-06-07 20:10:49.536 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/ - 301 null null 1.222ms
+2026-06-07 20:10:49.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2026-06-07 20:10:49.540 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-06-07 20:10:49.540 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:49.540 +03:00 [INF] Request GET /swagger/index.html
+2026-06-07 20:10:49.608 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-06-07 20:10:49.614 +03:00 [INF] Response 200 for GET /swagger/index.html in 73ms
+2026-06-07 20:10:49.615 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-06-07 20:10:49.615 +03:00 [DBG] Connection id "0HNM4MTRJ65AS" completed keep alive response.
+2026-06-07 20:10:49.615 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 75.1106ms
+2026-06-07 20:10:49.618 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui.css - null null
+2026-06-07 20:10:49.618 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2026-06-07 20:10:49.619 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:49.619 +03:00 [INF] Request GET /swagger/swagger-ui.css
+2026-06-07 20:10:49.619 +03:00 [DBG] Connection id "0HNM4MTRJ65AT" accepted.
+2026-06-07 20:10:49.619 +03:00 [DBG] Connection id "0HNM4MTRJ65AT" started.
+2026-06-07 20:10:49.620 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" accepted.
+2026-06-07 20:10:49.620 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" started.
+2026-06-07 20:10:49.620 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-bundle.js - null null
+2026-06-07 20:10:49.620 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2026-06-07 20:10:49.620 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:49.620 +03:00 [INF] Request GET /swagger/swagger-ui-bundle.js
+2026-06-07 20:10:49.621 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.css - null null
+2026-06-07 20:10:49.621 +03:00 [DBG] No candidates found for the request path '/swagger/index.css'
+2026-06-07 20:10:49.622 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:49.621 +03:00 [DBG] Connection id "0HNM4MTRJ65AV" accepted.
+2026-06-07 20:10:49.622 +03:00 [INF] Request GET /swagger/index.css
+2026-06-07 20:10:49.622 +03:00 [DBG] Connection id "0HNM4MTRJ65B0" accepted.
+2026-06-07 20:10:49.622 +03:00 [DBG] Connection id "0HNM4MTRJ65B0" started.
+2026-06-07 20:10:49.622 +03:00 [DBG] Connection id "0HNM4MTRJ65B1" accepted.
+2026-06-07 20:10:49.623 +03:00 [DBG] Connection id "0HNM4MTRJ65AV" started.
+2026-06-07 20:10:49.623 +03:00 [DBG] Connection id "0HNM4MTRJ65B1" started.
+2026-06-07 20:10:49.624 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-07 20:10:49.624 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.js - null null
+2026-06-07 20:10:49.624 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-06-07 20:10:49.624 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2026-06-07 20:10:49.624 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:49.624 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:49.624 +03:00 [INF] Request GET /swagger/index.js
+2026-06-07 20:10:49.624 +03:00 [INF] Request GET /swagger/swagger-ui-standalone-preset.js
+2026-06-07 20:10:49.625 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-07 20:10:49.625 +03:00 [INF] Response 200 for GET /swagger/index.js in 1ms
+2026-06-07 20:10:49.625 +03:00 [DBG] Connection id "0HNM4MTRJ65B0" completed keep alive response.
+2026-06-07 20:10:49.625 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.js - 200 null application/javascript;charset=utf-8 1.6983ms
+2026-06-07 20:10:49.628 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-06-07 20:10:49.628 +03:00 [DBG] Connection id "0HNM4MTRJ65B1" completed keep alive response.
+2026-06-07 20:10:49.628 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 14901 application/javascript; charset=utf-8 3.8653ms
+2026-06-07 20:10:49.636 +03:00 [INF] Response 200 for GET /swagger/swagger-ui.css in 17ms
+2026-06-07 20:10:49.636 +03:00 [DBG] Connection id "0HNM4MTRJ65AS" completed keep alive response.
+2026-06-07 20:10:49.636 +03:00 [INF] Response 200 for GET /swagger/index.css in 14ms
+2026-06-07 20:10:49.636 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui.css - 200 26499 text/css 18.4942ms
+2026-06-07 20:10:49.636 +03:00 [DBG] Connection id "0HNM4MTRJ65AT" completed keep alive response.
+2026-06-07 20:10:49.637 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.css - 200 152 text/css 15.3134ms
+2026-06-07 20:10:49.638 +03:00 [INF] Response 200 for GET /swagger/swagger-ui-standalone-preset.js in 14ms
+2026-06-07 20:10:49.638 +03:00 [DBG] Connection id "0HNM4MTRJ65AV" completed keep alive response.
+2026-06-07 20:10:49.638 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-standalone-preset.js - 200 76613 text/javascript 14.7918ms
+2026-06-07 20:10:49.647 +03:00 [INF] Response 200 for GET /swagger/swagger-ui-bundle.js in 26ms
+2026-06-07 20:10:49.649 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" completed keep alive response.
+2026-06-07 20:10:49.649 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-bundle.js - 200 418599 text/javascript 28.5595ms
+2026-06-07 20:10:49.813 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2026-06-07 20:10:49.813 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2026-06-07 20:10:49.813 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:49.814 +03:00 [INF] Request GET /swagger/v1/swagger.json
+2026-06-07 20:10:49.815 +03:00 [INF] Response 200 for GET /swagger/v1/swagger.json in 1ms
+2026-06-07 20:10:49.815 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" completed keep alive response.
+2026-06-07 20:10:49.815 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.5462ms
+2026-06-07 20:10:49.838 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/favicon-32x32.png - null null
+2026-06-07 20:10:49.838 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2026-06-07 20:10:49.838 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:10:49.838 +03:00 [INF] Request GET /swagger/favicon-32x32.png
+2026-06-07 20:10:49.839 +03:00 [INF] Response 200 for GET /swagger/favicon-32x32.png in 1ms
+2026-06-07 20:10:49.839 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" completed keep alive response.
+2026-06-07 20:10:49.839 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/favicon-32x32.png - 200 628 image/png 1.6973ms
+2026-06-07 20:10:59.939 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/current - null null
+2026-06-07 20:10:59.941 +03:00 [DBG] 1 candidate(s) found for the request path '/api/current'
+2026-06-07 20:10:59.942 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/current'
+2026-06-07 20:10:59.942 +03:00 [INF] Request GET /api/current
+2026-06-07 20:10:59.948 +03:00 [INF] Executing endpoint 'HTTP: GET /api/current'
+2026-06-07 20:10:59.972 +03:00 [INF] Writing value of type '<>f__AnonymousType2`2[]' as Json.
+2026-06-07 20:10:59.981 +03:00 [INF] Executed endpoint 'HTTP: GET /api/current'
+2026-06-07 20:10:59.981 +03:00 [INF] Response 200 for GET /api/current in 38ms
+2026-06-07 20:10:59.981 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" completed keep alive response.
+2026-06-07 20:10:59.981 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/current - 200 null application/json; charset=utf-8 42.0772ms
+2026-06-07 20:11:02.365 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/current - null null
+2026-06-07 20:11:02.366 +03:00 [DBG] 1 candidate(s) found for the request path '/api/current'
+2026-06-07 20:11:02.366 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/current'
+2026-06-07 20:11:02.366 +03:00 [INF] Request GET /api/current
+2026-06-07 20:11:02.366 +03:00 [INF] Executing endpoint 'HTTP: GET /api/current'
+2026-06-07 20:11:02.368 +03:00 [INF] Writing value of type '<>f__AnonymousType2`2[]' as Json.
+2026-06-07 20:11:02.369 +03:00 [INF] Executed endpoint 'HTTP: GET /api/current'
+2026-06-07 20:11:02.369 +03:00 [INF] Response 200 for GET /api/current in 2ms
+2026-06-07 20:11:02.369 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" completed keep alive response.
+2026-06-07 20:11:02.369 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/current - 200 null application/json; charset=utf-8 4.0297ms
+2026-06-07 20:11:03.152 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/current - null null
+2026-06-07 20:11:03.152 +03:00 [DBG] 1 candidate(s) found for the request path '/api/current'
+2026-06-07 20:11:03.152 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/current'
+2026-06-07 20:11:03.152 +03:00 [INF] Request GET /api/current
+2026-06-07 20:11:03.153 +03:00 [INF] Executing endpoint 'HTTP: GET /api/current'
+2026-06-07 20:11:03.153 +03:00 [INF] Writing value of type '<>f__AnonymousType2`2[]' as Json.
+2026-06-07 20:11:03.153 +03:00 [INF] Executed endpoint 'HTTP: GET /api/current'
+2026-06-07 20:11:03.153 +03:00 [INF] Response 200 for GET /api/current in 0ms
+2026-06-07 20:11:03.153 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" completed keep alive response.
+2026-06-07 20:11:03.153 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/current - 200 null application/json; charset=utf-8 0.9331ms
+2026-06-07 20:11:03.822 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/current - null null
+2026-06-07 20:11:03.822 +03:00 [DBG] 1 candidate(s) found for the request path '/api/current'
+2026-06-07 20:11:03.822 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/current'
+2026-06-07 20:11:03.822 +03:00 [INF] Request GET /api/current
+2026-06-07 20:11:03.822 +03:00 [INF] Executing endpoint 'HTTP: GET /api/current'
+2026-06-07 20:11:03.823 +03:00 [INF] Writing value of type '<>f__AnonymousType2`2[]' as Json.
+2026-06-07 20:11:03.823 +03:00 [INF] Executed endpoint 'HTTP: GET /api/current'
+2026-06-07 20:11:03.823 +03:00 [INF] Response 200 for GET /api/current in 0ms
+2026-06-07 20:11:03.823 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" completed keep alive response.
+2026-06-07 20:11:03.823 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/current - 200 null application/json; charset=utf-8 0.9696ms
+2026-06-07 20:11:14.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/history - null null
+2026-06-07 20:11:14.174 +03:00 [DBG] 1 candidate(s) found for the request path '/api/history'
+2026-06-07 20:11:14.174 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/history'
+2026-06-07 20:11:14.174 +03:00 [INF] Request GET /api/history
+2026-06-07 20:11:14.176 +03:00 [INF] Executing endpoint 'HTTP: GET /api/history'
+2026-06-07 20:11:14.188 +03:00 [INF] Writing value of type 'Dictionary`2' as Json.
+2026-06-07 20:11:14.189 +03:00 [INF] Executed endpoint 'HTTP: GET /api/history'
+2026-06-07 20:11:14.190 +03:00 [INF] Response 200 for GET /api/history in 15ms
+2026-06-07 20:11:14.190 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" completed keep alive response.
+2026-06-07 20:11:14.190 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/history - 200 null application/json; charset=utf-8 15.729ms
+2026-06-07 20:13:00.232 +03:00 [DBG] Connection id "0HNM4MTRJ65AS" disconnecting.
+2026-06-07 20:13:00.234 +03:00 [DBG] Connection id "0HNM4MTRJ65AS" stopped.
+2026-06-07 20:13:00.234 +03:00 [DBG] Connection id "0HNM4MTRJ65AS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:13:01.231 +03:00 [DBG] Connection id "0HNM4MTRJ65AT" disconnecting.
+2026-06-07 20:13:01.231 +03:00 [DBG] Connection id "0HNM4MTRJ65AV" disconnecting.
+2026-06-07 20:13:01.231 +03:00 [DBG] Connection id "0HNM4MTRJ65B0" disconnecting.
+2026-06-07 20:13:01.232 +03:00 [DBG] Connection id "0HNM4MTRJ65AV" stopped.
+2026-06-07 20:13:01.232 +03:00 [DBG] Connection id "0HNM4MTRJ65B0" stopped.
+2026-06-07 20:13:01.232 +03:00 [DBG] Connection id "0HNM4MTRJ65AT" stopped.
+2026-06-07 20:13:01.232 +03:00 [DBG] Connection id "0HNM4MTRJ65AV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:13:01.232 +03:00 [DBG] Connection id "0HNM4MTRJ65B0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:13:01.232 +03:00 [DBG] Connection id "0HNM4MTRJ65AT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:13:01.233 +03:00 [DBG] Connection id "0HNM4MTRJ65B1" disconnecting.
+2026-06-07 20:13:01.233 +03:00 [DBG] Connection id "0HNM4MTRJ65B1" stopped.
+2026-06-07 20:13:01.234 +03:00 [DBG] Connection id "0HNM4MTRJ65B1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:13:25.240 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" disconnecting.
+2026-06-07 20:13:25.241 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" stopped.
+2026-06-07 20:13:25.241 +03:00 [DBG] Connection id "0HNM4MTRJ65AU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:17:15.930 +03:00 [INF] Application is shutting down...
+2026-06-07 20:17:15.931 +03:00 [DBG] Hosting stopping
+2026-06-07 20:17:15.940 +03:00 [DBG] Hosting stopped
+2026-06-07 20:21:50.698 +03:00 [DBG] Hosting starting
+2026-06-07 20:21:50.739 +03:00 [DBG] Middleware loaded
+2026-06-07 20:21:50.744 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14901 B).
+2026-06-07 20:21:50.748 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-06-07 20:21:50.781 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-07 20:21:50.784 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-07 20:21:50.784 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-06-07 20:21:50.802 +03:00 [INF] Now listening on: http://localhost:5136
+2026-06-07 20:21:50.803 +03:00 [DBG] Loaded hosting startup assembly Meteo.Api
+2026-06-07 20:21:50.803 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-06-07 20:21:50.804 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 20:21:50.804 +03:00 [INF] Hosting environment: Development
+2026-06-07 20:21:50.804 +03:00 [INF] Content root path: C:\Users\DevEnv\Downloads\SmartMeteo\Meteo.Api
+2026-06-07 20:21:50.804 +03:00 [DBG] Hosting started
+2026-06-07 20:23:49.363 +03:00 [DBG] Connection id "0HNM4N64T9JH3" accepted.
+2026-06-07 20:23:49.365 +03:00 [DBG] Connection id "0HNM4N64T9JH3" started.
+2026-06-07 20:23:49.407 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/current - null null
+2026-06-07 20:23:49.461 +03:00 [DBG] No candidates found for the request path '/api/current'
+2026-06-07 20:23:49.462 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:23:49.465 +03:00 [INF] Request GET /api/current
+2026-06-07 20:23:49.521 +03:00 [INF] Response 404 for GET /api/current in 56ms
+2026-06-07 20:23:49.525 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/current - 404 0 null 122.4514ms
+2026-06-07 20:23:49.526 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/api/current, Response status code: 404
+2026-06-07 20:23:49.527 +03:00 [DBG] Connection id "0HNM4N64T9JH3" disconnecting.
+2026-06-07 20:23:49.527 +03:00 [DBG] Connection id "0HNM4N64T9JH3" stopped.
+2026-06-07 20:23:49.530 +03:00 [DBG] Connection id "0HNM4N64T9JH3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:24:07.007 +03:00 [INF] Application is shutting down...
+2026-06-07 20:24:07.010 +03:00 [DBG] Hosting stopping
+2026-06-07 20:24:07.032 +03:00 [DBG] Hosting stopped
+2026-06-07 20:24:16.072 +03:00 [DBG] Hosting starting
+2026-06-07 20:24:16.113 +03:00 [DBG] Middleware loaded
+2026-06-07 20:24:16.116 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14901 B).
+2026-06-07 20:24:16.122 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-06-07 20:24:16.155 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-07 20:24:16.157 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-07 20:24:16.158 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-06-07 20:24:16.174 +03:00 [INF] Now listening on: http://localhost:5136
+2026-06-07 20:24:16.174 +03:00 [DBG] Loaded hosting startup assembly Meteo.Api
+2026-06-07 20:24:16.174 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-06-07 20:24:16.175 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 20:24:16.175 +03:00 [INF] Hosting environment: Development
+2026-06-07 20:24:16.175 +03:00 [INF] Content root path: C:\Users\DevEnv\Downloads\SmartMeteo\Meteo.Api
+2026-06-07 20:24:16.175 +03:00 [DBG] Hosting started
+2026-06-07 20:24:23.142 +03:00 [DBG] Connection id "0HNM4N6EVDV8Q" accepted.
+2026-06-07 20:24:23.143 +03:00 [DBG] Connection id "0HNM4N6EVDV8Q" started.
+2026-06-07 20:24:23.184 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/current - null null
+2026-06-07 20:24:23.220 +03:00 [DBG] No candidates found for the request path '/api/current'
+2026-06-07 20:24:23.221 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:24:23.224 +03:00 [INF] Request GET /api/current
+2026-06-07 20:24:23.260 +03:00 [INF] Response 404 for GET /api/current in 36ms
+2026-06-07 20:24:23.263 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/current - 404 0 null 80.7407ms
+2026-06-07 20:24:23.264 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/api/current, Response status code: 404
+2026-06-07 20:24:23.264 +03:00 [DBG] Connection id "0HNM4N6EVDV8Q" disconnecting.
+2026-06-07 20:24:23.265 +03:00 [DBG] Connection id "0HNM4N6EVDV8Q" stopped.
+2026-06-07 20:24:23.268 +03:00 [DBG] Connection id "0HNM4N6EVDV8Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:24:50.628 +03:00 [INF] Application is shutting down...
+2026-06-07 20:24:50.631 +03:00 [DBG] Hosting stopping
+2026-06-07 20:24:50.656 +03:00 [DBG] Hosting stopped
+2026-06-07 20:25:04.278 +03:00 [DBG] Hosting starting
+2026-06-07 20:25:04.354 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-07 20:25:04.358 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-07 20:25:04.375 +03:00 [INF] Now listening on: http://localhost:5136
+2026-06-07 20:25:04.376 +03:00 [DBG] Loaded hosting startup assembly Meteo.Api
+2026-06-07 20:25:04.377 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 20:25:04.378 +03:00 [INF] Hosting environment: Development
+2026-06-07 20:25:04.379 +03:00 [INF] Content root path: C:\Users\DevEnv\Downloads\SmartMeteo\Meteo.Api
+2026-06-07 20:25:04.380 +03:00 [DBG] Hosting started
+2026-06-07 20:25:13.558 +03:00 [DBG] Connection id "0HNM4N6U08AUL" accepted.
+2026-06-07 20:25:13.560 +03:00 [DBG] Connection id "0HNM4N6U08AUL" started.
+2026-06-07 20:25:13.599 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2026-06-07 20:25:13.648 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-06-07 20:25:13.650 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:25:13.654 +03:00 [INF] Request GET /swagger/index.html
+2026-06-07 20:25:13.741 +03:00 [INF] Response 304 for GET /swagger/index.html in 87ms
+2026-06-07 20:25:13.746 +03:00 [DBG] Connection id "0HNM4N6U08AUL" completed keep alive response.
+2026-06-07 20:25:13.749 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 304 null null 150.9998ms
+2026-06-07 20:25:13.764 +03:00 [DBG] Connection id "0HNM4N6U08AUM" accepted.
+2026-06-07 20:25:13.766 +03:00 [DBG] Connection id "0HNM4N6U08AUM" started.
+2026-06-07 20:25:13.766 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui.css - null null
+2026-06-07 20:25:13.770 +03:00 [DBG] Connection id "0HNM4N6U08AUN" accepted.
+2026-06-07 20:25:13.773 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.css - null null
+2026-06-07 20:25:13.776 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2026-06-07 20:25:13.776 +03:00 [DBG] Connection id "0HNM4N6U08AUN" started.
+2026-06-07 20:25:13.777 +03:00 [DBG] Connection id "0HNM4N6U08AUO" accepted.
+2026-06-07 20:25:13.779 +03:00 [DBG] No candidates found for the request path '/swagger/index.css'
+2026-06-07 20:25:13.781 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:25:13.782 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-bundle.js - null null
+2026-06-07 20:25:13.783 +03:00 [DBG] Connection id "0HNM4N6U08AUO" started.
+2026-06-07 20:25:13.783 +03:00 [DBG] Connection id "0HNM4N6U08AUP" accepted.
+2026-06-07 20:25:13.784 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:25:13.786 +03:00 [INF] Request GET /swagger/swagger-ui.css
+2026-06-07 20:25:13.790 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2026-06-07 20:25:13.791 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-07 20:25:13.792 +03:00 [DBG] Connection id "0HNM4N6U08AUQ" accepted.
+2026-06-07 20:25:13.793 +03:00 [DBG] Connection id "0HNM4N6U08AUP" started.
+2026-06-07 20:25:13.793 +03:00 [INF] Request GET /swagger/index.css
+2026-06-07 20:25:13.795 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:25:13.798 +03:00 [DBG] No candidates found for the request path '/_framework/aspnetcore-browser-refresh.js'
+2026-06-07 20:25:13.799 +03:00 [DBG] Connection id "0HNM4N6U08AUQ" started.
+2026-06-07 20:25:13.800 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-07 20:25:13.803 +03:00 [INF] Request GET /swagger/swagger-ui-bundle.js
+2026-06-07 20:25:13.804 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:25:13.806 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.js - null null
+2026-06-07 20:25:13.809 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-06-07 20:25:13.810 +03:00 [INF] Request GET /_framework/aspnetcore-browser-refresh.js
+2026-06-07 20:25:13.813 +03:00 [INF] Response 304 for GET /swagger/index.css in 20ms
+2026-06-07 20:25:13.813 +03:00 [INF] Response 304 for GET /swagger/swagger-ui.css in 26ms
+2026-06-07 20:25:13.813 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2026-06-07 20:25:13.815 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:25:13.816 +03:00 [INF] Response 404 for GET /_framework/aspnetcore-browser-refresh.js in 6ms
+2026-06-07 20:25:13.819 +03:00 [DBG] Connection id "0HNM4N6U08AUM" completed keep alive response.
+2026-06-07 20:25:13.820 +03:00 [DBG] Connection id "0HNM4N6U08AUL" completed keep alive response.
+2026-06-07 20:25:13.821 +03:00 [INF] Response 304 for GET /swagger/swagger-ui-bundle.js in 17ms
+2026-06-07 20:25:13.823 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:25:13.823 +03:00 [INF] Request GET /swagger/swagger-ui-standalone-preset.js
+2026-06-07 20:25:13.825 +03:00 [DBG] Connection id "0HNM4N6U08AUO" completed keep alive response.
+2026-06-07 20:25:13.827 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.css - 304 null null 54.079ms
+2026-06-07 20:25:13.828 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui.css - 304 null null 61.6108ms
+2026-06-07 20:25:13.830 +03:00 [DBG] Connection id "0HNM4N6U08AUN" completed keep alive response.
+2026-06-07 20:25:13.831 +03:00 [INF] Request GET /swagger/index.js
+2026-06-07 20:25:13.840 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 404 0 null 49.2311ms
+2026-06-07 20:25:13.841 +03:00 [INF] Response 304 for GET /swagger/swagger-ui-standalone-preset.js in 17ms
+2026-06-07 20:25:13.847 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-bundle.js - 304 null null 65.5817ms
+2026-06-07 20:25:13.848 +03:00 [INF] Response 304 for GET /swagger/index.js in 17ms
+2026-06-07 20:25:13.852 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js, Response status code: 404
+2026-06-07 20:25:13.856 +03:00 [DBG] Connection id "0HNM4N6U08AUP" completed keep alive response.
+2026-06-07 20:25:13.862 +03:00 [DBG] Connection id "0HNM4N6U08AUQ" completed keep alive response.
+2026-06-07 20:25:13.865 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-standalone-preset.js - 304 null null 64.518ms
+2026-06-07 20:25:13.866 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.js - 304 null null 59.4571ms
+2026-06-07 20:25:14.078 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2026-06-07 20:25:14.081 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2026-06-07 20:25:14.082 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:25:14.083 +03:00 [INF] Request GET /swagger/v1/swagger.json
+2026-06-07 20:25:14.096 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-06-07 20:25:14.100 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-06-07 20:25:14.175 +03:00 [INF] Response 200 for GET /swagger/v1/swagger.json in 92ms
+2026-06-07 20:25:14.179 +03:00 [DBG] Connection id "0HNM4N6U08AUQ" completed keep alive response.
+2026-06-07 20:25:14.180 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.0978ms
+2026-06-07 20:26:33.198 +03:00 [INF] Application is shutting down...
+2026-06-07 20:26:33.200 +03:00 [DBG] Hosting stopping
+2026-06-07 20:26:33.220 +03:00 [DBG] Connection id "0HNM4N6U08AUL" disconnecting.
+2026-06-07 20:26:33.221 +03:00 [DBG] Connection id "0HNM4N6U08AUO" disconnecting.
+2026-06-07 20:26:33.221 +03:00 [DBG] Connection id "0HNM4N6U08AUN" disconnecting.
+2026-06-07 20:26:33.221 +03:00 [DBG] Connection id "0HNM4N6U08AUM" disconnecting.
+2026-06-07 20:26:33.223 +03:00 [DBG] Connection id "0HNM4N6U08AUP" disconnecting.
+2026-06-07 20:26:33.224 +03:00 [DBG] Connection id "0HNM4N6U08AUQ" disconnecting.
+2026-06-07 20:26:33.228 +03:00 [DBG] Connection id "0HNM4N6U08AUL" stopped.
+2026-06-07 20:26:33.228 +03:00 [DBG] Connection id "0HNM4N6U08AUO" stopped.
+2026-06-07 20:26:33.231 +03:00 [DBG] Connection id "0HNM4N6U08AUN" stopped.
+2026-06-07 20:26:33.234 +03:00 [DBG] Connection id "0HNM4N6U08AUM" stopped.
+2026-06-07 20:26:33.237 +03:00 [DBG] Connection id "0HNM4N6U08AUP" stopped.
+2026-06-07 20:26:33.239 +03:00 [DBG] Connection id "0HNM4N6U08AUQ" stopped.
+2026-06-07 20:26:33.245 +03:00 [DBG] Connection id "0HNM4N6U08AUM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:26:33.245 +03:00 [DBG] Connection id "0HNM4N6U08AUN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:26:33.245 +03:00 [DBG] Connection id "0HNM4N6U08AUO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:26:33.245 +03:00 [DBG] Connection id "0HNM4N6U08AUL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:26:33.247 +03:00 [DBG] Connection id "0HNM4N6U08AUP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:26:33.248 +03:00 [DBG] Connection id "0HNM4N6U08AUQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:26:33.266 +03:00 [DBG] Hosting stopped
+2026-06-07 20:27:02.414 +03:00 [DBG] Hosting starting
+2026-06-07 20:27:02.488 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-07 20:27:02.492 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-07 20:27:02.508 +03:00 [INF] Now listening on: http://localhost:5136
+2026-06-07 20:27:02.509 +03:00 [DBG] Loaded hosting startup assembly Meteo.Api
+2026-06-07 20:27:02.511 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 20:27:02.512 +03:00 [INF] Hosting environment: Development
+2026-06-07 20:27:02.513 +03:00 [INF] Content root path: C:\Users\DevEnv\Downloads\SmartMeteo\Meteo.Api
+2026-06-07 20:27:02.513 +03:00 [DBG] Hosting started
+2026-06-07 20:27:07.307 +03:00 [DBG] Connection id "0HNM4N7VT1JNL" accepted.
+2026-06-07 20:27:07.310 +03:00 [DBG] Connection id "0HNM4N7VT1JNL" started.
+2026-06-07 20:27:07.348 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2026-06-07 20:27:07.388 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-06-07 20:27:07.390 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:27:07.393 +03:00 [INF] Request GET /swagger/index.html
+2026-06-07 20:27:07.478 +03:00 [INF] Response 304 for GET /swagger/index.html in 85ms
+2026-06-07 20:27:07.483 +03:00 [DBG] Connection id "0HNM4N7VT1JNL" completed keep alive response.
+2026-06-07 20:27:07.487 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 304 null null 140.077ms
+2026-06-07 20:27:07.500 +03:00 [DBG] Connection id "0HNM4N7VT1JNM" accepted.
+2026-06-07 20:27:07.506 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui.css - null null
+2026-06-07 20:27:07.507 +03:00 [DBG] Connection id "0HNM4N7VT1JNM" started.
+2026-06-07 20:27:07.507 +03:00 [DBG] Connection id "0HNM4N7VT1JNN" accepted.
+2026-06-07 20:27:07.511 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2026-06-07 20:27:07.511 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.css - null null
+2026-06-07 20:27:07.513 +03:00 [DBG] Connection id "0HNM4N7VT1JNO" accepted.
+2026-06-07 20:27:07.514 +03:00 [DBG] Connection id "0HNM4N7VT1JNN" started.
+2026-06-07 20:27:07.514 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:27:07.516 +03:00 [DBG] No candidates found for the request path '/swagger/index.css'
+2026-06-07 20:27:07.517 +03:00 [DBG] Connection id "0HNM4N7VT1JNO" started.
+2026-06-07 20:27:07.518 +03:00 [DBG] Connection id "0HNM4N7VT1JNP" accepted.
+2026-06-07 20:27:07.519 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-bundle.js - null null
+2026-06-07 20:27:07.520 +03:00 [INF] Request GET /swagger/swagger-ui.css
+2026-06-07 20:27:07.520 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:27:07.522 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-07 20:27:07.523 +03:00 [DBG] Connection id "0HNM4N7VT1JNQ" accepted.
+2026-06-07 20:27:07.523 +03:00 [DBG] Connection id "0HNM4N7VT1JNP" started.
+2026-06-07 20:27:07.526 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2026-06-07 20:27:07.528 +03:00 [INF] Request GET /swagger/index.css
+2026-06-07 20:27:07.530 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-06-07 20:27:07.531 +03:00 [DBG] Connection id "0HNM4N7VT1JNQ" started.
+2026-06-07 20:27:07.533 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.js - null null
+2026-06-07 20:27:07.534 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:27:07.537 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:27:07.539 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-07 20:27:07.541 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2026-06-07 20:27:07.541 +03:00 [INF] Request GET /swagger/swagger-ui-bundle.js
+2026-06-07 20:27:07.542 +03:00 [INF] Request GET /swagger/swagger-ui-standalone-preset.js
+2026-06-07 20:27:07.545 +03:00 [DBG] No candidates found for the request path '/_framework/aspnetcore-browser-refresh.js'
+2026-06-07 20:27:07.545 +03:00 [INF] Response 304 for GET /swagger/swagger-ui.css in 25ms
+2026-06-07 20:27:07.545 +03:00 [INF] Response 304 for GET /swagger/index.css in 17ms
+2026-06-07 20:27:07.546 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:27:07.550 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:27:07.551 +03:00 [INF] Response 304 for GET /swagger/swagger-ui-standalone-preset.js in 8ms
+2026-06-07 20:27:07.553 +03:00 [DBG] Connection id "0HNM4N7VT1JNL" completed keep alive response.
+2026-06-07 20:27:07.555 +03:00 [INF] Response 304 for GET /swagger/swagger-ui-bundle.js in 13ms
+2026-06-07 20:27:07.556 +03:00 [DBG] Connection id "0HNM4N7VT1JNM" completed keep alive response.
+2026-06-07 20:27:07.557 +03:00 [INF] Request GET /swagger/index.js
+2026-06-07 20:27:07.558 +03:00 [INF] Request GET /_framework/aspnetcore-browser-refresh.js
+2026-06-07 20:27:07.559 +03:00 [DBG] Connection id "0HNM4N7VT1JNO" completed keep alive response.
+2026-06-07 20:27:07.561 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui.css - 304 null null 55.0392ms
+2026-06-07 20:27:07.563 +03:00 [DBG] Connection id "0HNM4N7VT1JNN" completed keep alive response.
+2026-06-07 20:27:07.564 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.css - 304 null null 52.3676ms
+2026-06-07 20:27:07.566 +03:00 [INF] Response 304 for GET /swagger/index.js in 8ms
+2026-06-07 20:27:07.566 +03:00 [INF] Response 404 for GET /_framework/aspnetcore-browser-refresh.js in 8ms
+2026-06-07 20:27:07.567 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-standalone-preset.js - 304 null null 45.6596ms
+2026-06-07 20:27:07.577 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-bundle.js - 304 null null 57.8527ms
+2026-06-07 20:27:07.582 +03:00 [DBG] Connection id "0HNM4N7VT1JNP" completed keep alive response.
+2026-06-07 20:27:07.583 +03:00 [DBG] Connection id "0HNM4N7VT1JNQ" completed keep alive response.
+2026-06-07 20:27:07.595 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.js - 304 null null 62.1845ms
+2026-06-07 20:27:07.596 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 404 0 null 57.255ms
+2026-06-07 20:27:07.602 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js, Response status code: 404
+2026-06-07 20:27:07.670 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2026-06-07 20:27:07.674 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2026-06-07 20:27:07.675 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:27:07.676 +03:00 [INF] Request GET /swagger/v1/swagger.json
+2026-06-07 20:27:07.683 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-06-07 20:27:07.690 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-06-07 20:27:07.763 +03:00 [INF] Response 200 for GET /swagger/v1/swagger.json in 87ms
+2026-06-07 20:27:07.767 +03:00 [DBG] Connection id "0HNM4N7VT1JNQ" completed keep alive response.
+2026-06-07 20:27:07.768 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.8527ms
+2026-06-07 20:27:11.154 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/current - null null
+2026-06-07 20:27:11.160 +03:00 [DBG] 1 candidate(s) found for the request path '/current'
+2026-06-07 20:27:11.163 +03:00 [DBG] Request matched endpoint 'HTTP: GET /current'
+2026-06-07 20:27:11.165 +03:00 [INF] Request GET /current
+2026-06-07 20:27:11.170 +03:00 [INF] Executing endpoint 'HTTP: GET /current'
+2026-06-07 20:27:11.206 +03:00 [INF] Writing value of type '<>f__AnonymousType2`5' as Json.
+2026-06-07 20:27:11.212 +03:00 [INF] Executed endpoint 'HTTP: GET /current'
+2026-06-07 20:27:11.213 +03:00 [INF] Response 200 for GET /current in 48ms
+2026-06-07 20:27:11.215 +03:00 [DBG] Connection id "0HNM4N7VT1JNQ" completed keep alive response.
+2026-06-07 20:27:11.216 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/current - 200 null application/json; charset=utf-8 62.6052ms
+2026-06-07 20:27:17.737 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/history - null null
+2026-06-07 20:27:17.741 +03:00 [DBG] 1 candidate(s) found for the request path '/history'
+2026-06-07 20:27:17.742 +03:00 [DBG] Request matched endpoint 'HTTP: GET /history'
+2026-06-07 20:27:17.744 +03:00 [INF] Request GET /history
+2026-06-07 20:27:17.745 +03:00 [INF] Executing endpoint 'HTTP: GET /history'
+2026-06-07 20:27:17.763 +03:00 [INF] Writing value of type 'Dictionary`2' as Json.
+2026-06-07 20:27:17.765 +03:00 [INF] Executed endpoint 'HTTP: GET /history'
+2026-06-07 20:27:17.766 +03:00 [INF] Response 200 for GET /history in 22ms
+2026-06-07 20:27:17.768 +03:00 [DBG] Connection id "0HNM4N7VT1JNQ" completed keep alive response.
+2026-06-07 20:27:17.771 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/history - 200 null application/json; charset=utf-8 33.1768ms
+2026-06-07 20:27:32.212 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5136/calibration - null 0
+2026-06-07 20:27:32.215 +03:00 [DBG] 1 candidate(s) found for the request path '/calibration'
+2026-06-07 20:27:32.216 +03:00 [DBG] Request matched endpoint 'HTTP: POST /calibration'
+2026-06-07 20:27:32.219 +03:00 [INF] Request POST /calibration
+2026-06-07 20:27:32.220 +03:00 [INF] Executing endpoint 'HTTP: POST /calibration'
+2026-06-07 20:27:32.231 +03:00 [INF] Setting HTTP status code 400.
+2026-06-07 20:27:32.233 +03:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2026-06-07 20:27:32.235 +03:00 [INF] Executed endpoint 'HTTP: POST /calibration'
+2026-06-07 20:27:32.237 +03:00 [INF] Response 400 for POST /calibration in 18ms
+2026-06-07 20:27:32.239 +03:00 [DBG] Connection id "0HNM4N7VT1JNQ" completed keep alive response.
+2026-06-07 20:27:32.240 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5136/calibration - 400 null application/json; charset=utf-8 28.1701ms
+2026-06-07 20:27:53.861 +03:00 [DBG] Connection id "0HNM4N7VT1JNR" accepted.
+2026-06-07 20:27:53.865 +03:00 [DBG] Connection id "0HNM4N7VT1JNR" started.
+2026-06-07 20:27:53.869 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/current - null null
+2026-06-07 20:27:53.877 +03:00 [DBG] No candidates found for the request path '/api/current'
+2026-06-07 20:27:53.879 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:27:53.881 +03:00 [INF] Request GET /api/current
+2026-06-07 20:27:53.882 +03:00 [INF] Response 404 for GET /api/current in 1ms
+2026-06-07 20:27:53.884 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/current - 404 0 null 14.9585ms
+2026-06-07 20:27:53.890 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/api/current, Response status code: 404
+2026-06-07 20:27:53.893 +03:00 [DBG] Connection id "0HNM4N7VT1JNR" disconnecting.
+2026-06-07 20:27:53.894 +03:00 [DBG] Connection id "0HNM4N7VT1JNR" received FIN.
+2026-06-07 20:27:53.894 +03:00 [DBG] Connection id "0HNM4N7VT1JNR" stopped.
+2026-06-07 20:27:53.899 +03:00 [DBG] Connection id "0HNM4N7VT1JNR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:28:43.402 +03:00 [DBG] Connection id "0HNM4N7VT1JNS" accepted.
+2026-06-07 20:28:43.406 +03:00 [DBG] Connection id "0HNM4N7VT1JNS" started.
+2026-06-07 20:28:43.410 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/current - null null
+2026-06-07 20:28:43.413 +03:00 [DBG] 1 candidate(s) found for the request path '/current'
+2026-06-07 20:28:43.415 +03:00 [DBG] Request matched endpoint 'HTTP: GET /current'
+2026-06-07 20:28:43.417 +03:00 [INF] Request GET /current
+2026-06-07 20:28:43.419 +03:00 [INF] Executing endpoint 'HTTP: GET /current'
+2026-06-07 20:28:43.422 +03:00 [INF] Writing value of type '<>f__AnonymousType2`5' as Json.
+2026-06-07 20:28:43.424 +03:00 [INF] Executed endpoint 'HTTP: GET /current'
+2026-06-07 20:28:43.426 +03:00 [INF] Response 200 for GET /current in 9ms
+2026-06-07 20:28:43.429 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/current - 200 null application/json; charset=utf-8 18.8533ms
+2026-06-07 20:28:43.433 +03:00 [DBG] Connection id "0HNM4N7VT1JNS" disconnecting.
+2026-06-07 20:28:43.435 +03:00 [DBG] Connection id "0HNM4N7VT1JNS" stopped.
+2026-06-07 20:28:43.436 +03:00 [DBG] Connection id "0HNM4N7VT1JNS" received FIN.
+2026-06-07 20:28:43.439 +03:00 [DBG] Connection id "0HNM4N7VT1JNS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:28:45.835 +03:00 [DBG] Connection id "0HNM4N7VT1JNT" accepted.
+2026-06-07 20:28:45.837 +03:00 [DBG] Connection id "0HNM4N7VT1JNT" started.
+2026-06-07 20:28:45.838 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/history?from=2026-06-07T00:00:00Z&to=2026-06-07T23:59:00Z - null null
+2026-06-07 20:28:45.841 +03:00 [DBG] 1 candidate(s) found for the request path '/history'
+2026-06-07 20:28:45.842 +03:00 [DBG] Request matched endpoint 'HTTP: GET /history'
+2026-06-07 20:28:45.843 +03:00 [INF] Request GET /history
+2026-06-07 20:28:45.844 +03:00 [INF] Executing endpoint 'HTTP: GET /history'
+2026-06-07 20:28:45.850 +03:00 [INF] Writing value of type 'Dictionary`2' as Json.
+2026-06-07 20:28:45.851 +03:00 [INF] Executed endpoint 'HTTP: GET /history'
+2026-06-07 20:28:45.853 +03:00 [INF] Response 200 for GET /history in 10ms
+2026-06-07 20:28:45.855 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/history?from=2026-06-07T00:00:00Z&to=2026-06-07T23:59:00Z - 200 null application/json; charset=utf-8 17.4423ms
+2026-06-07 20:28:45.858 +03:00 [DBG] Connection id "0HNM4N7VT1JNT" disconnecting.
+2026-06-07 20:28:45.859 +03:00 [DBG] Connection id "0HNM4N7VT1JNT" stopped.
+2026-06-07 20:28:45.860 +03:00 [DBG] Connection id "0HNM4N7VT1JNT" received FIN.
+2026-06-07 20:28:45.861 +03:00 [DBG] Connection id "0HNM4N7VT1JNT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:28:48.108 +03:00 [DBG] Connection id "0HNM4N7VT1JNU" accepted.
+2026-06-07 20:28:48.109 +03:00 [DBG] Connection id "0HNM4N7VT1JNU" started.
+2026-06-07 20:28:48.110 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5136/history?from=2026-06-07T00:00:00Z&to=2026-06-07T00:10:00Z - null null
+2026-06-07 20:28:48.113 +03:00 [DBG] 1 candidate(s) found for the request path '/history'
+2026-06-07 20:28:48.114 +03:00 [DBG] Request matched endpoint 'HTTP: DELETE /history'
+2026-06-07 20:28:48.115 +03:00 [INF] Request DELETE /history
+2026-06-07 20:28:48.117 +03:00 [INF] Executing endpoint 'HTTP: DELETE /history'
+2026-06-07 20:28:48.127 +03:00 [INF] Writing value of type '<>f__AnonymousType4`3' as Json.
+2026-06-07 20:28:48.129 +03:00 [INF] Executed endpoint 'HTTP: DELETE /history'
+2026-06-07 20:28:48.131 +03:00 [INF] Response 200 for DELETE /history in 15ms
+2026-06-07 20:28:48.133 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5136/history?from=2026-06-07T00:00:00Z&to=2026-06-07T00:10:00Z - 200 null application/json; charset=utf-8 22.6267ms
+2026-06-07 20:28:48.135 +03:00 [DBG] Connection id "0HNM4N7VT1JNU" received FIN.
+2026-06-07 20:28:48.137 +03:00 [DBG] Connection id "0HNM4N7VT1JNU" disconnecting.
+2026-06-07 20:28:48.139 +03:00 [DBG] Connection id "0HNM4N7VT1JNU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:28:48.141 +03:00 [DBG] Connection id "0HNM4N7VT1JNU" stopped.
+2026-06-07 20:28:52.026 +03:00 [DBG] Connection id "0HNM4N7VT1JNV" accepted.
+2026-06-07 20:28:52.028 +03:00 [DBG] Connection id "0HNM4N7VT1JNV" started.
+2026-06-07 20:28:52.029 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5136/calibration - application/json 61
+2026-06-07 20:28:52.031 +03:00 [DBG] 1 candidate(s) found for the request path '/calibration'
+2026-06-07 20:28:52.032 +03:00 [DBG] Request matched endpoint 'HTTP: POST /calibration'
+2026-06-07 20:28:52.034 +03:00 [INF] Request POST /calibration
+2026-06-07 20:28:52.036 +03:00 [INF] Executing endpoint 'HTTP: POST /calibration'
+2026-06-07 20:28:52.040 +03:00 [DBG] Connection id "0HNM4N7VT1JNV", Request id "0HNM4N7VT1JNV:00000001": started reading request body.
+2026-06-07 20:28:52.041 +03:00 [DBG] Connection id "0HNM4N7VT1JNV", Request id "0HNM4N7VT1JNV:00000001": done reading request body.
+2026-06-07 20:28:52.050 +03:00 [INF] Setting HTTP status code 400.
+2026-06-07 20:28:52.052 +03:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2026-06-07 20:28:52.054 +03:00 [INF] Executed endpoint 'HTTP: POST /calibration'
+2026-06-07 20:28:52.055 +03:00 [INF] Response 400 for POST /calibration in 21ms
+2026-06-07 20:28:52.057 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5136/calibration - 400 null application/json; charset=utf-8 27.8688ms
+2026-06-07 20:28:52.059 +03:00 [DBG] Connection id "0HNM4N7VT1JNV" received FIN.
+2026-06-07 20:28:52.060 +03:00 [DBG] Connection id "0HNM4N7VT1JNV" disconnecting.
+2026-06-07 20:28:52.062 +03:00 [DBG] Connection id "0HNM4N7VT1JNV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:28:52.064 +03:00 [DBG] Connection id "0HNM4N7VT1JNV" stopped.
+2026-06-07 20:29:18.573 +03:00 [DBG] Connection id "0HNM4N7VT1JNL" disconnecting.
+2026-06-07 20:29:18.573 +03:00 [DBG] Connection id "0HNM4N7VT1JNN" disconnecting.
+2026-06-07 20:29:18.573 +03:00 [DBG] Connection id "0HNM4N7VT1JNM" disconnecting.
+2026-06-07 20:29:18.573 +03:00 [DBG] Connection id "0HNM4N7VT1JNO" disconnecting.
+2026-06-07 20:29:18.574 +03:00 [DBG] Connection id "0HNM4N7VT1JNP" disconnecting.
+2026-06-07 20:29:18.580 +03:00 [DBG] Connection id "0HNM4N7VT1JNL" stopped.
+2026-06-07 20:29:18.581 +03:00 [DBG] Connection id "0HNM4N7VT1JNN" stopped.
+2026-06-07 20:29:18.584 +03:00 [DBG] Connection id "0HNM4N7VT1JNM" stopped.
+2026-06-07 20:29:18.588 +03:00 [DBG] Connection id "0HNM4N7VT1JNO" stopped.
+2026-06-07 20:29:18.591 +03:00 [DBG] Connection id "0HNM4N7VT1JNP" stopped.
+2026-06-07 20:29:18.595 +03:00 [DBG] Connection id "0HNM4N7VT1JNL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:29:18.597 +03:00 [DBG] Connection id "0HNM4N7VT1JNN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:29:18.600 +03:00 [DBG] Connection id "0HNM4N7VT1JNM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:29:18.601 +03:00 [DBG] Connection id "0HNM4N7VT1JNO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:29:18.604 +03:00 [DBG] Connection id "0HNM4N7VT1JNP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:29:42.581 +03:00 [DBG] Connection id "0HNM4N7VT1JNQ" disconnecting.
+2026-06-07 20:29:42.587 +03:00 [DBG] Connection id "0HNM4N7VT1JNQ" stopped.
+2026-06-07 20:29:42.590 +03:00 [DBG] Connection id "0HNM4N7VT1JNQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:35:13.605 +03:00 [INF] Application is shutting down...
+2026-06-07 20:35:13.608 +03:00 [DBG] Hosting stopping
+2026-06-07 20:35:13.633 +03:00 [DBG] Hosting stopped
+2026-06-07 20:36:00.994 +03:00 [DBG] Hosting starting
+2026-06-07 20:36:01.073 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-07 20:36:01.078 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-07 20:36:01.097 +03:00 [INF] Now listening on: http://localhost:5136
+2026-06-07 20:36:01.098 +03:00 [DBG] Loaded hosting startup assembly Meteo.Api
+2026-06-07 20:36:01.099 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 20:36:01.100 +03:00 [INF] Hosting environment: Development
+2026-06-07 20:36:01.101 +03:00 [INF] Content root path: C:\Users\DevEnv\Downloads\SmartMeteo\Meteo.Api
+2026-06-07 20:36:01.102 +03:00 [DBG] Hosting started
+2026-06-07 20:36:02.649 +03:00 [DBG] Connection id "0HNM4NCVEF96L" accepted.
+2026-06-07 20:36:02.651 +03:00 [DBG] Connection id "0HNM4NCVEF96L" started.
+2026-06-07 20:36:02.688 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/current - null null
+2026-06-07 20:36:02.732 +03:00 [DBG] No candidates found for the request path '/api/current'
+2026-06-07 20:36:02.733 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:36:02.738 +03:00 [INF] Request GET /api/current
+2026-06-07 20:36:02.778 +03:00 [INF] Response 404 for GET /api/current in 40ms
+2026-06-07 20:36:02.783 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/current - 404 0 null 98.27ms
+2026-06-07 20:36:02.788 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/api/current, Response status code: 404
+2026-06-07 20:36:02.790 +03:00 [DBG] Connection id "0HNM4NCVEF96L" received FIN.
+2026-06-07 20:36:02.791 +03:00 [DBG] Connection id "0HNM4NCVEF96L" disconnecting.
+2026-06-07 20:36:02.794 +03:00 [DBG] Connection id "0HNM4NCVEF96L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:36:02.797 +03:00 [DBG] Connection id "0HNM4NCVEF96L" stopped.
+2026-06-07 20:38:31.632 +03:00 [DBG] Connection id "0HNM4NCVEF96M" accepted.
+2026-06-07 20:38:31.638 +03:00 [DBG] Connection id "0HNM4NCVEF96M" started.
+2026-06-07 20:38:31.644 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/current - null null
+2026-06-07 20:38:31.651 +03:00 [DBG] No candidates found for the request path '/api/current'
+2026-06-07 20:38:31.654 +03:00 [DBG] Request did not match any endpoints
+2026-06-07 20:38:31.657 +03:00 [INF] Request GET /api/current
+2026-06-07 20:38:31.660 +03:00 [INF] Response 404 for GET /api/current in 3ms
+2026-06-07 20:38:31.664 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/current - 404 0 null 20.1974ms
+2026-06-07 20:38:31.668 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/api/current, Response status code: 404
+2026-06-07 20:38:31.670 +03:00 [DBG] Connection id "0HNM4NCVEF96M" received FIN.
+2026-06-07 20:38:31.671 +03:00 [DBG] Connection id "0HNM4NCVEF96M" disconnecting.
+2026-06-07 20:38:31.675 +03:00 [DBG] Connection id "0HNM4NCVEF96M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:38:31.677 +03:00 [DBG] Connection id "0HNM4NCVEF96M" stopped.
+2026-06-07 20:38:40.390 +03:00 [INF] Application is shutting down...
+2026-06-07 20:38:40.393 +03:00 [DBG] Hosting stopping
+2026-06-07 20:38:40.415 +03:00 [DBG] Hosting stopped
+2026-06-07 20:39:06.139 +03:00 [DBG] Hosting starting
+2026-06-07 20:39:06.185 +03:00 [DBG] Middleware loaded
+2026-06-07 20:39:06.190 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14901 B).
+2026-06-07 20:39:06.195 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-06-07 20:39:06.234 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-07 20:39:06.237 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-07 20:39:06.238 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-06-07 20:39:06.255 +03:00 [INF] Now listening on: http://localhost:5136
+2026-06-07 20:39:06.255 +03:00 [DBG] Loaded hosting startup assembly Meteo.Api
+2026-06-07 20:39:06.256 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-06-07 20:39:06.256 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 20:39:06.256 +03:00 [INF] Hosting environment: Development
+2026-06-07 20:39:06.256 +03:00 [INF] Content root path: C:\Users\DevEnv\Downloads\SmartMeteo\Meteo.Api
+2026-06-07 20:39:06.256 +03:00 [DBG] Hosting started
+2026-06-07 20:39:06.955 +03:00 [DBG] Connection id "0HNM4NEMC4RH2" accepted.
+2026-06-07 20:39:06.956 +03:00 [DBG] Connection id "0HNM4NEMC4RH2" started.
+2026-06-07 20:39:06.982 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/current - null null
+2026-06-07 20:39:07.024 +03:00 [DBG] 1 candidate(s) found for the request path '/api/current'
+2026-06-07 20:39:07.030 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/current'
+2026-06-07 20:39:07.035 +03:00 [INF] Request GET /api/current
+2026-06-07 20:39:07.106 +03:00 [INF] Executing endpoint 'HTTP: GET /api/current'
+2026-06-07 20:39:07.139 +03:00 [INF] Writing value of type '<>f__AnonymousType2`5' as Json.
+2026-06-07 20:39:07.147 +03:00 [INF] Executed endpoint 'HTTP: GET /api/current'
+2026-06-07 20:39:07.148 +03:00 [INF] Response 200 for GET /api/current in 112ms
+2026-06-07 20:39:07.149 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/current - 200 null application/json; charset=utf-8 168.9441ms
+2026-06-07 20:39:07.150 +03:00 [DBG] Connection id "0HNM4NEMC4RH2" disconnecting.
+2026-06-07 20:39:07.151 +03:00 [DBG] Connection id "0HNM4NEMC4RH2" stopped.
+2026-06-07 20:39:07.152 +03:00 [DBG] Connection id "0HNM4NEMC4RH2" received FIN.
+2026-06-07 20:39:07.155 +03:00 [DBG] Connection id "0HNM4NEMC4RH2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:39:09.415 +03:00 [DBG] Connection id "0HNM4NEMC4RH3" accepted.
+2026-06-07 20:39:09.416 +03:00 [DBG] Connection id "0HNM4NEMC4RH3" started.
+2026-06-07 20:39:09.416 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/history?from=2026-06-07T00:00:00Z&to=2026-06-07T23:59:00Z - null null
+2026-06-07 20:39:09.418 +03:00 [DBG] 1 candidate(s) found for the request path '/api/history'
+2026-06-07 20:39:09.418 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/history'
+2026-06-07 20:39:09.419 +03:00 [INF] Request GET /api/history
+2026-06-07 20:39:09.439 +03:00 [INF] Executing endpoint 'HTTP: GET /api/history'
+2026-06-07 20:39:09.451 +03:00 [INF] Writing value of type 'Dictionary`2' as Json.
+2026-06-07 20:39:09.452 +03:00 [INF] Executed endpoint 'HTTP: GET /api/history'
+2026-06-07 20:39:09.452 +03:00 [INF] Response 200 for GET /api/history in 33ms
+2026-06-07 20:39:09.453 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/history?from=2026-06-07T00:00:00Z&to=2026-06-07T23:59:00Z - 200 null application/json; charset=utf-8 36.1212ms
+2026-06-07 20:39:09.454 +03:00 [DBG] Connection id "0HNM4NEMC4RH3" disconnecting.
+2026-06-07 20:39:09.454 +03:00 [DBG] Connection id "0HNM4NEMC4RH3" stopped.
+2026-06-07 20:39:09.455 +03:00 [DBG] Connection id "0HNM4NEMC4RH3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:39:11.525 +03:00 [DBG] Connection id "0HNM4NEMC4RH4" accepted.
+2026-06-07 20:39:11.526 +03:00 [DBG] Connection id "0HNM4NEMC4RH4" started.
+2026-06-07 20:39:11.526 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5136/api/history?from=2026-06-07T00:00:00Z&to=2026-06-07T00:10:00Z - null null
+2026-06-07 20:39:11.526 +03:00 [DBG] 1 candidate(s) found for the request path '/api/history'
+2026-06-07 20:39:11.526 +03:00 [DBG] Request matched endpoint 'HTTP: DELETE /api/history'
+2026-06-07 20:39:11.526 +03:00 [INF] Request DELETE /api/history
+2026-06-07 20:39:11.527 +03:00 [INF] Executing endpoint 'HTTP: DELETE /api/history'
+2026-06-07 20:39:11.532 +03:00 [INF] Writing value of type '<>f__AnonymousType4`3' as Json.
+2026-06-07 20:39:11.533 +03:00 [INF] Executed endpoint 'HTTP: DELETE /api/history'
+2026-06-07 20:39:11.533 +03:00 [INF] Response 200 for DELETE /api/history in 6ms
+2026-06-07 20:39:11.533 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5136/api/history?from=2026-06-07T00:00:00Z&to=2026-06-07T00:10:00Z - 200 null application/json; charset=utf-8 6.8656ms
+2026-06-07 20:39:11.533 +03:00 [DBG] Connection id "0HNM4NEMC4RH4" disconnecting.
+2026-06-07 20:39:11.533 +03:00 [DBG] Connection id "0HNM4NEMC4RH4" stopped.
+2026-06-07 20:39:11.533 +03:00 [DBG] Connection id "0HNM4NEMC4RH4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:39:13.153 +03:00 [DBG] Connection id "0HNM4NEMC4RH5" accepted.
+2026-06-07 20:39:13.153 +03:00 [DBG] Connection id "0HNM4NEMC4RH5" started.
+2026-06-07 20:39:13.154 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5136/api/calibration - application/json 61
+2026-06-07 20:39:13.154 +03:00 [DBG] 1 candidate(s) found for the request path '/api/calibration'
+2026-06-07 20:39:13.154 +03:00 [DBG] Request matched endpoint 'HTTP: POST /api/calibration'
+2026-06-07 20:39:13.154 +03:00 [INF] Request POST /api/calibration
+2026-06-07 20:39:13.161 +03:00 [DBG] Connection id "0HNM4NEMC4RH5", Request id "0HNM4NEMC4RH5:00000001": started reading request body.
+2026-06-07 20:39:13.161 +03:00 [DBG] Connection id "0HNM4NEMC4RH5", Request id "0HNM4NEMC4RH5:00000001": done reading request body.
+2026-06-07 20:39:13.169 +03:00 [INF] Response 400 for POST /api/calibration in 15ms
+2026-06-07 20:39:13.170 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5136/api/calibration - 400 null application/json; charset=utf-8 16.1707ms
+2026-06-07 20:39:13.170 +03:00 [DBG] Connection id "0HNM4NEMC4RH5" disconnecting.
+2026-06-07 20:39:13.171 +03:00 [DBG] Connection id "0HNM4NEMC4RH5" stopped.
+2026-06-07 20:39:13.171 +03:00 [DBG] Connection id "0HNM4NEMC4RH5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-07 20:39:20.588 +03:00 [INF] Application is shutting down...
+2026-06-07 20:39:20.591 +03:00 [DBG] Hosting stopping
+2026-06-07 20:39:20.611 +03:00 [DBG] Hosting stopped
