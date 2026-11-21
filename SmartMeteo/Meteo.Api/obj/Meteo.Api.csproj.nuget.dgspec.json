@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DevEnv\\Downloads\\SmartMeteo\\Meteo.Api\\Meteo.Api.csproj": {}
+    "c:\\Users\\DevEnv\\Downloads\\NetProjects\\SmartMeteo\\SmartMeteo\\Meteo.Api\\Meteo.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DevEnv\\Downloads\\SmartMeteo\\Meteo.Api\\Meteo.Api.csproj": {
+    "c:\\Users\\DevEnv\\Downloads\\NetProjects\\SmartMeteo\\SmartMeteo\\Meteo.Api\\Meteo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DevEnv\\Downloads\\SmartMeteo\\Meteo.Api\\Meteo.Api.csproj",
+        "projectUniqueName": "c:\\Users\\DevEnv\\Downloads\\NetProjects\\SmartMeteo\\SmartMeteo\\Meteo.Api\\Meteo.Api.csproj",
         "projectName": "Meteo.Api",
-        "projectPath": "C:\\Users\\DevEnv\\Downloads\\SmartMeteo\\Meteo.Api\\Meteo.Api.csproj",
+        "projectPath": "c:\\Users\\DevEnv\\Downloads\\NetProjects\\SmartMeteo\\SmartMeteo\\Meteo.Api\\Meteo.Api.csproj",
         "packagesPath": "C:\\Users\\DevEnv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DevEnv\\Downloads\\SmartMeteo\\Meteo.Api\\obj\\",
+        "outputPath": "c:\\Users\\DevEnv\\Downloads\\NetProjects\\SmartMeteo\\SmartMeteo\\Meteo.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DevEnv\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -45,6 +45,10 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.8, )"

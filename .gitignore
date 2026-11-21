@@ -1,0 +1,32 @@
+# .NET build outputs
+**/bin/
+**/obj/
+
+# Visual Studio / VS Code
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test results and coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs
+**/logs/
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# User-specific files
+*.userprefs
+
+# OS-generated files
+Thumbs.db
+.DS_Store
